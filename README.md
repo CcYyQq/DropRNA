@@ -10,7 +10,7 @@ download GTF and processed Transcrption, Exon position file from 10X cellranger 
 ## Step1: Extract the Cell Barcode
 
 ```
-python 00_get_cellbarcode.py ./_config.json ./10X_1.1.fq.gz  ./X10.1.pickle 10X 20 &
+python 00_get_cellbarcode.py ./10X_1.1.fq.gz  ./X10.1.pickle 10X 20 &
 ```
 
 ## Step2: Stats on the Cell Barcode
